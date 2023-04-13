@@ -1,0 +1,13 @@
+insult_adj  = [inbred whimpering pathetic filthy gutter-feeding dirty unwashed unclean repulsive pitiful nauseating vulgar drooling slack-jawed]
+insult_noun = [pauper vagrant low-life peasant degenerate serf wretch]
+surely = [(all but) simply just (nothing less than) surely utterly]
+Express_outrage = [(This is {<surely>}) How]  [outrageous scandalous preposterous absurd disgusting]
+
+any_longer = [(any [longer further]) (at such length)]
+have_to = [(have to) (be [forced made] to) ]
+tolerate = [tolerate endure suffer bear]
+Why_must = [ (Why [must should]) Must]
+Insult = <Why_must> I {<have_to>} <tolerate> {the [presence existence] of} this {<insult_adj>} <insult_noun> {<any_longer>}
+
+
+default = <Express_outrage>[! .] <Insult>?{!}

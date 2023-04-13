@@ -1,0 +1,33 @@
+greetings = [(good [day morning evening afternoon]) (greetings {to you}) welcome hail]
+
+greet_person = <greetings> {to you} {, [kind good worthy honoured fair] [(sir {knight}) traveler friend ally guest]}
+
+emphasis_particle = [most direly shockingly]
+situation = [situation circumstance plight state]
+we_desperate = [desperate despondent (without hope) helpless]
+situation_grave = [serious dire desperate grave hopeless]
+
+describe_plight = {[alas, mercy, please,]} [(we are in a {<emphasis_particle>} <situation_grave> <situation>) (our <situation> is {indeed} <situation_grave>) (we are <we_desperate>)]
+
+herd_animals = [sheep goats cows pigs livestock herd llamas alpacas kangaroos]
+an_exag_big_verb = [(a giant) (an enormous) (a huge) (a massive) (a gigantic) (a stupendous) (a great big)] {bloody}
+danger = [dragon behemoth Gargantubore wyvern Brontosaurus ogre]
+appeared = [appeared emerged (came {out}) (burst {out})]
+looking_after = [(looking after) minding (taking care of) (tending to)]
+hiding_place = [cave boulder hill hut temple cliff ruins ]
+near = [behind near over underneath (on top of) around]
+describe_event = [as when while] I was <looking_after> the <herd_animals>, <an_exag_big_verb> <danger> <appeared> from {<near>} the <hiding_place>
+
+beg = [beseech beg (beg of) (ask of) implore]
+heed = [hear heed (listen to)]
+pleas = [pleas cries]
+ask_for_help = we <beg> you
+
+destroy = [destroy (wipe out) vanquish defeat kill slay banish eliminate (condemn to the depths of hell) crush]
+threat = [threat menace danger fiend scourge abomination]
+vile = [vile appalling fearsome evil dastardly atrocious]
+do_something = <destroy> this {<vile>} <threat>
+
+relief = [(at {long} last) finally]
+
+default = {<Relief>!} <Greet_person>[. !] <Describe_plight>. <Describe_event>! <Ask_for_help>, {<heed> our <pleas> and} <DO_SOMETHING>!
