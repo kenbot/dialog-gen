@@ -1,0 +1,6 @@
+greeting = [hello hi yo]
+its_nice = [([(it is) it's] nice) (I'm {very} glad)]
+see = [see meet (run into)]
+take_back = [(or is it) not (I don't think)]
+
+default = <Greeting>[! .] <Its_nice> to <see> you. {<TAKE_BACK>!} 
