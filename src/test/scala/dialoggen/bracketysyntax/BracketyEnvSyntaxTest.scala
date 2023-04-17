@@ -1,10 +1,10 @@
-package textgen.bracketysyntax
+package dialoggen.bracketysyntax
 
 
 
 import utest._
 
-import textgen.model.{Expr, RefCase, ExprEnv, Definition}
+import dialoggen.model.{Expr, RefCase, ExprEnv, Definition}
 
 object BracketyEnvSyntaxTest extends TestSuite {
 

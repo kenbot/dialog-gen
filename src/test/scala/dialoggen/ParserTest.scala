@@ -1,9 +1,9 @@
-package textgen
+package dialoggen
 
 import scala.util.Try
-import textgen.model._
+import dialoggen.model._
 import utest._
-import textgen.{Parser, ParseResult}
+import dialoggen.{Parser, ParseResult}
 
 
 object ParserTest extends TestSuite {

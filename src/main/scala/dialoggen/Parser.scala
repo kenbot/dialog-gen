@@ -1,6 +1,6 @@
-package textgen
+package dialoggen
 
-import textgen.model.{Expr, RefCase}
+import dialoggen.model.{Expr, RefCase}
 
 
 object Parser:

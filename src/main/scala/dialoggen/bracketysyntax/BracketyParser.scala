@@ -1,8 +1,8 @@
-package textgen.bracketysyntax
+package dialoggen.bracketysyntax
 
-import textgen.model.{Expr, RefCase, ExprEnv, Definition}
+import dialoggen.model.{Expr, RefCase, ExprEnv, Definition}
 
-import textgen.{Parser, ParseResult}
+import dialoggen.{Parser, ParseResult}
 
 object BracketyParser:
 

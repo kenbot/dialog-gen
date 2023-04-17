@@ -1,8 +1,8 @@
-package textgen
+package dialoggen
 
 import scala.io.Source
-import textgen.model._
-import textgen.bracketysyntax.BracketySyntax
+import dialoggen.model._
+import dialoggen.bracketysyntax.BracketySyntax
 
 @main
 def main(): Unit = 

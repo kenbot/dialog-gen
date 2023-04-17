@@ -1,8 +1,8 @@
-package textgen.bracketysyntax
+package dialoggen.bracketysyntax
 
 import utest._
 
-import textgen.model.{Expr, RefCase}
+import dialoggen.model.{Expr, RefCase}
 
 object BracketyExprSyntaxTest extends TestSuite {
 

@@ -1,4 +1,4 @@
-name := "textgen"
+name := "dialog-gen"
 
 scalaVersion := "3.2.2"
 

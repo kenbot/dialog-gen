@@ -1,4 +1,4 @@
-package textgen.model
+package dialoggen.model
 
 
 trait ScriptSyntax:

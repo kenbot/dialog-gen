@@ -1,6 +1,6 @@
-package textgen.bracketysyntax
+package dialoggen.bracketysyntax
 
-import textgen.model._
+import dialoggen.model._
 
 object BracketySyntax extends ScriptSyntax:
   def parseExpr(script: String): Option[Expr] = 
